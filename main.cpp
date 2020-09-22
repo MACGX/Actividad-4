@@ -35,6 +35,7 @@ int main() {
 	system("cls");
 	cout << "----- Personajes: Estructuras ----- " << endl;
 	cout <<"Captura los datos de los personajes" << endl;
+	cout <<"La fuerza y la salud deben ser n" << char(163) <<"meros"<< endl;
 	for (int i = 0; i < 5; i++) {
 		cout <<"Personaje: "<<i<<endl; 
 		cout <<"Nombre: "; 
