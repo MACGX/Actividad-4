@@ -43,6 +43,7 @@ int main() {
 	    cout <<"Tipo: "; 
 	    cin.getline(P[i].tipo,30);
 	    cout <<"Fuerza: ";
+		cin.ignore();
 	    cin>>P[i].fuerza;
 	     cout <<"Salud: ";
 	    cin>>P[i].salud;
